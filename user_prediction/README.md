@@ -17,4 +17,4 @@
 
 (1) poetry를 사용해서 프로젝트 의존성 관리. (추후 프로젝트 시 동일한 Poetry 환경을 사용할 수 있게끔 함)  
 (2) .pre-commit-config.yaml 파일을 통해서 pre-commit 시에 black, isort formatter로 포맷팅하도록 수정  
-(3) Nginx(리버스 프록시)에 요청을 보내도록 함
+(3) Nginx(리버스 프록시)에 요청을 보내도록 함 (보안 강화, 로드 밸런싱 측면)

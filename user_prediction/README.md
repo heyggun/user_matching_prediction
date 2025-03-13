@@ -4,6 +4,7 @@
 
 (1) conda 가상 환경으로 개발  
 (2) formatter 없이 그냥 작성되어 있던 코드들
+(3) 클라이언트에서 백엔드 서버로 바로 요청하던 과정
 
 - 데이터 분석을 위해 흩어져 있던 jupyter file
 - 보안 및 주요한 설정이 있는 env 로드가 main에 있음
@@ -16,3 +17,4 @@
 
 (1) poetry를 사용해서 프로젝트 의존성 관리. (추후 프로젝트 시 동일한 Poetry 환경을 사용할 수 있게끔 함)  
 (2) .pre-commit-config.yaml 파일을 통해서 pre-commit 시에 black, isort formatter로 포맷팅하도록 수정
+(3) Nginx(리버스 프록시)에 요청을 보내도록 함
